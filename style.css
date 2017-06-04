@@ -1,9 +1,7 @@
 body {
 background-color: #F6F6F6;
-border-top: 5px solid #ccc;
-border-bottom: 5px solid #ccc;
 margin: 30px auto;
-padding: 50px;
+padding: 15px;
 width: 800px;
 font-family: helvetica;
 font-weight: lighter;
@@ -52,12 +50,8 @@ ul {
 
 hr {
   border: none;
-  border-top: 1px solid #222;
+  border-top: 2px dotted #ccc;
   margin: 30px 0;
-}
-
-footer.home_foot {
-  margin-left: 200px;
 }
 
 footer li a {
@@ -71,7 +65,9 @@ footer li a {
 }
 
 .secondary_p {
+  font-size: 15px;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 img.logo {
@@ -86,5 +82,9 @@ h3 {
 }
 
 img {
-  border: 1px solid #5b5b5b;
+  border: 1px solid #ccc;
+}
+
+.indentation {
+  margin-left: 30px;
 }
